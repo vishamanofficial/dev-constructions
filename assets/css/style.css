@@ -1589,6 +1589,7 @@ iframe {
   float: right;
 }
 .top-right > a {
+  color: var(--theme-brown);
   font-size: 2rem;
 }
 /* ------ First row  Left ------- */
