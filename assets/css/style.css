@@ -1923,7 +1923,7 @@ header {
     width: 50%;
   }
   .slider-item {
-    height: 70vh;
+    height: auto;
     padding-top: 20px;
   }
   .slider-section .slider-item p {
