@@ -1875,7 +1875,7 @@ header {
     text-align: center;
   }
   .mobile-nav .mobile-nav-box a img {
-    max-width: 25%;
+    max-width: 50%;
   }
   .side-menu {
     position: fixed;
@@ -1918,7 +1918,7 @@ header {
     font-weight: 700;
   }
   .side-menu ul li a img {
-    width: 30%;
+    width: 50%;
   }
   .slider-item {
     height: 70vh;
