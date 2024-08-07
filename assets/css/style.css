@@ -1921,22 +1921,26 @@ header {
     width: 30%;
   }
   .slider-item {
+    height: 70vh;
     padding-top: 20px;
   }
   .slider-section .slider-item p {
-    padding: 23px 20px;
-    font-size: 30px;
+    padding: 40px 20px;
+    font-size: 40px;
     font-weight: 900;
 }
 .slider-section .slider-item h1 {
   font-size: 40px;
   margin-left: 20px;
-  margin-top: -20px;
+  margin-top: 0px;
 }
 .slider-section .slider-item h3 {
   font-size: 15px;
-  margin:0px 10px 0px 20px;
+  margin:90px 10px 0px 20px;
   border-left: 4px solid var(--theme-brown);
   padding-left: 6px;
+}
+.slider-section .slider-btn {
+  padding: 45px 20px;
 }
 }
