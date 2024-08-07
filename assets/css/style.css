@@ -57,15 +57,18 @@ header {
   padding: 67px 45px;
   font-size: 30px;
   font-weight: 900;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7); 
 }
 .slider-section .slider-item h1 {
   color: black;
   font-size: 60px;
   margin-left: 45px;
   margin-top: -60px;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7); 
 }
 .slider-section .slider-item h1 span {
   color: #786457;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7); 
 }
 
 .slider-section .slider-item h3 {
@@ -1872,6 +1875,7 @@ header {
   }
   .mobile-nav .mobile-nav-box .menu-open span i {
     font-size: 22px;
+    margin-left: 5px;
   }
   .mobile-nav .mobile-nav-box a {
     text-align: center;
@@ -1907,6 +1911,8 @@ header {
   .side-menu .menu-close-btn span i {
     font-size: 30px;
     line-height: 30px;
+    margin-top: 5px;
+    margin-right: 5px;
   }
 
   .side-menu ul li {
