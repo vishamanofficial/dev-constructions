@@ -92,8 +92,12 @@ header {
   background-color: var(--theme-black);
   transition: 0.5s ease;
 }
+.slider-item {
+  height: 100vh;
+  padding-top: 70px;
+}
 
-/* NAMANS CODE START HERE */
+
 
 /* Aboutsection */
 .about {
@@ -118,12 +122,11 @@ header {
   border-radius: 100px 10px 100px 10px;
 }
 
-
 .about-img-text {
   display: flex;
   margin: 20px 0px;
 }
-.about-img-text img{
+.about-img-text img {
   height: fit-content;
 }
 .about-img-text p {
@@ -199,9 +202,7 @@ header {
   width: 80%;
   position: relative;
 }
-/* .about-info-img .slider-btn {
-  padding: 45px 45px;
-} */
+
 .about-info-img .slider-btn a {
   text-decoration: none;
   color: white;
@@ -397,16 +398,12 @@ header {
   letter-spacing: 0.5px;
 }
 
-
-/* our history============================================================ */
 /* Our History */
 
 .our_journey {
   padding: 0px 0px;
   position: relative;
 }
-
-
 
 .our_journey .jaurneytext1 {
   padding: 20px 30px;
@@ -417,16 +414,15 @@ header {
   z-index: 99;
   position: relative;
 }
-.our_journey .jaurneytext1 h4{
+.our_journey .jaurneytext1 h4 {
   font-size: 35px;
 }
-.our_journey .jaurneytext1 p{
+.our_journey .jaurneytext1 p {
   font-size: 20px;
 }
 
-
 .our_journey .jaurneytext1::before {
-  content: 'May 1999';
+  content: "May 1999";
   text-align: center;
   position: absolute;
   width: 120px;
@@ -437,7 +433,6 @@ header {
   background-color: var(--theme-brown);
   border-radius: 15px 0px 15px 0px;
   padding: 8px 0;
-
 }
 
 .our_journey .jaurneytext2 {
@@ -450,15 +445,15 @@ header {
   z-index: 99;
   position: relative;
 }
-.our_journey .jaurneytext2 h4{
+.our_journey .jaurneytext2 h4 {
   font-size: 35px;
 }
-.our_journey .jaurneytext2 p{
+.our_journey .jaurneytext2 p {
   font-size: 20px;
 }
 
 .our_journey .jaurneytext2::before {
-  content: 'JUNE 2005';
+  content: "JUNE 2005";
   text-align: center;
   position: absolute;
   width: 120px;
@@ -469,7 +464,6 @@ header {
   background-color: var(--theme-brown);
   border-radius: 15px 0px 15px 0px;
   padding: 8px 0;
-
 }
 
 .our_journey .jaurneytext3 {
@@ -482,15 +476,15 @@ header {
   z-index: 99;
   position: relative;
 }
-.our_journey .jaurneytext3 h4{
+.our_journey .jaurneytext3 h4 {
   font-size: 35px;
 }
-.our_journey .jaurneytext3 p{
+.our_journey .jaurneytext3 p {
   font-size: 20px;
 }
 
 .our_journey .jaurneytext3::before {
-  content: 'JULY 2013';
+  content: "JULY 2013";
   text-align: center;
   position: absolute;
   width: 120px;
@@ -501,7 +495,6 @@ header {
   background-color: var(--theme-brown);
   border-radius: 15px 0px 15px 0px;
   padding: 8px 0;
-
 }
 
 .our_journey .jaurneytext4 {
@@ -514,15 +507,15 @@ header {
   z-index: 99;
   position: relative;
 }
-.our_journey .jaurneytext4 h4{
+.our_journey .jaurneytext4 h4 {
   font-size: 35px;
 }
-.our_journey .jaurneytext4 p{
+.our_journey .jaurneytext4 p {
   font-size: 20px;
 }
 
 .our_journey .jaurneytext4::before {
-  content: 'AUGUST 2020';
+  content: "AUGUST 2020";
   text-align: center;
   position: absolute;
   width: 120px;
@@ -533,7 +526,6 @@ header {
   background-color: var(--theme-brown);
   border-radius: 15px 0px 15px 0px;
   padding: 8px 0;
-
 }
 
 .our_journey .jaurneytext1 .jaurneytext2 .jaurneytext3 .jaurneytext4 h4 {
@@ -543,79 +535,58 @@ header {
 
 .our_journey .jaurneytext1 .jaurneytext2 .jaurneytext3 .jaurneytext4 p {
   font-size: 16px;
-
 }
 
-@media only screen and (max-width:767px) {
-
+@media only screen and (max-width: 767px) {
   .our_journey .jaurneytext1 {
     width: 400px;
     height: auto;
   }
 
-
   .our_journey .jaurneytext2 {
-
     width: 400px;
     height: auto;
   }
-
 
   .our_journey .jaurneytext3 {
-
     width: 400px;
     height: auto;
-
   }
-
 
   .our_journey .jaurneytext4 {
-
     width: 400px;
     height: auto;
-
   }
 }
-@media only screen and (max-width:412px) {
-
+@media only screen and (max-width: 412px) {
   .our_journey .jaurneytext1 {
     width: 100%;
     height: auto;
   }
 
-
   .our_journey .jaurneytext2 {
-
     width: 100%;
     height: auto;
   }
-
 
   .our_journey .jaurneytext3 {
-
     width: 100%;
     height: auto;
-
   }
 
-
   .our_journey .jaurneytext4 {
-
     width: 100%;
     height: auto;
-
   }
 }
 
-.how_help_you{
+.how_help_you {
   padding: 50px 0;
   background-color: #171951;
   margin-bottom: 100px;
 }
 
-
-
-.how_help_you span{
+.how_help_you span {
   font-size: 20px;
   font-weight: 700;
   color: var(--theme-brown);
@@ -625,7 +596,7 @@ header {
 }
 
 .how_help_you span::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   left: 101%;
@@ -635,11 +606,11 @@ header {
   background: linear-gradient(to left, #b8967e, rgb(184 151 128 / 6%));
   transition: 0.4s;
   border-top-right-radius: 7px;
-  border-bottom-left-radius: 7px
+  border-bottom-left-radius: 7px;
 }
 
-.how_help_you  span::before {
-  content: '';
+.how_help_you span::before {
+  content: "";
   position: absolute;
   top: 50%;
   right: 90%;
@@ -649,22 +620,21 @@ header {
   background: linear-gradient(to right, #b8967e, rgb(184 151 128 / 6%));
   transition: 0.4s;
   border-bottom-left-radius: 7px;
-  border-top-right-radius: 7px
+  border-top-right-radius: 7px;
 }
 
-.how_help_you h2{
+.how_help_you h2 {
   font-size: 40px;
   font-weight: 700;
   color: var(--theme-white);
   margin-bottom: 10px;
-
 }
- .how_help_you p{
+.how_help_you p {
   font-size: 18px;
   color: var(--theme-white);
   margin-bottom: 35px;
- }
- .how_help_you .naman-btn a {
+}
+.how_help_you .naman-btn a {
   text-decoration: none;
   color: white;
   background-color: var(--theme-brown);
@@ -678,14 +648,13 @@ header {
   background-color: var(--theme-black);
   transition: 0.5s ease;
 }
-.how_help_you .help-img img{
+.how_help_you .help-img img {
   z-index: 99999;
   width: auto;
   height: auto;
 }
 
 
-/* NAMANS CODE END HERE */
 /* what we do  */
 .services {
   padding: 50px 50px;
@@ -1951,4 +1920,23 @@ header {
   .side-menu ul li a img {
     width: 30%;
   }
+  .slider-item {
+    padding-top: 20px;
+  }
+  .slider-section .slider-item p {
+    padding: 23px 20px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.slider-section .slider-item h1 {
+  font-size: 40px;
+  margin-left: 20px;
+  margin-top: -20px;
+}
+.slider-section .slider-item h3 {
+  font-size: 15px;
+  margin:0px 10px 0px 20px;
+  border-left: 4px solid var(--theme-brown);
+  padding-left: 6px;
+}
 }
