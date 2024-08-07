@@ -1685,9 +1685,10 @@ iframe {
 
 /* --------------------- Media Query ---------------------- */
 
-@media (max-width: 320px) {
+@media (max-width: 576px) {
   .top-right {
     width: 100%;
+    margin: 4rem 0;
   }
 
   .left-pages > div ul li a {
