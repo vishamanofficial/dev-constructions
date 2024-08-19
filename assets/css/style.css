@@ -21,6 +21,9 @@
   --theme-linkedin: #0a66c2;
   --theme-youtube: rgb(255, 0, 0);
 }
+html {
+  scroll-behavior: smooth;
+}
 h1 {
   color: var(--theme-brown);
 }
@@ -1749,6 +1752,17 @@ iframe {
   .who-we-are {
     padding: 0px 0px;
   }
+  .mobile-nav .mobile-nav-box a img {
+    max-width: 10%;
+    float: right;
+}
+
+.services .services-info-subtitle{
+  margin-top: 50px;
+}
+.about-info-subtitle{
+  margin-top: 50px;
+}
 }
 
 /* aman bhaiya ka navabar wala css starts here==================================================== */
@@ -1805,7 +1819,7 @@ header {
   display: inline-block;
 }
 .menubar .main-logo a img {
-  width: 100%;
+  width: 12vh;
 }
 .menubar nav {
   display: flex;
@@ -1877,11 +1891,11 @@ header {
     font-size: 22px;
     margin-left: 5px;
   }
-  .mobile-nav .mobile-nav-box a {
+  /* .mobile-nav .mobile-nav-box a {
     text-align: center;
-  }
+  } */
   .mobile-nav .mobile-nav-box a img {
-    max-width: 50%;
+    max-width: 10vh;
   }
   .side-menu {
     position: fixed;
