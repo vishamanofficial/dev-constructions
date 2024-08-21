@@ -1789,9 +1789,6 @@ header {
     font-size: 22px;
     margin-left: 5px;
   }
-  /* .mobile-nav .mobile-nav-box a {
-    text-align: center;
-  } */
   .mobile-nav .mobile-nav-box a img {
     max-width: 10vh;
   }
@@ -1808,6 +1805,7 @@ header {
   .side-menu.open {
     top: 0;
     left: 0;
+    height: 424px;
   }
 
   .side-menu .menu-close-btn {
