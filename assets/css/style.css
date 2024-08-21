@@ -1667,6 +1667,11 @@ iframe {
 .about-info-subtitle{
   margin-top: 50px;
 }
+.side-menu.open {
+  top: 0;
+  left: 0;
+  height: 419px;
+}
 }
 
 /* aman bhaiya ka navabar wala css starts here==================================================== */
@@ -1811,7 +1816,7 @@ header {
   .side-menu.open {
     top: 0;
     left: 0;
-    height: 424px;
+    height: 600px;
   }
 
   .side-menu .menu-close-btn {
