@@ -746,6 +746,12 @@ header {
   font-size: 20px;
   color: var(--theme-brown);
 }
+.services .test{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
 
 .services .services-box .services-content .icon img {
   width: 25%;
@@ -1861,4 +1867,12 @@ header {
 .slider-section .slider-btn {
   padding: 45px 20px;
 }
+.services .test{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
 }
