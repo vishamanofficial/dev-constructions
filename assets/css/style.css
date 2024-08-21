@@ -1790,7 +1790,7 @@ header {
     margin-left: 5px;
   }
   .mobile-nav .mobile-nav-box a img {
-    max-width: 10vh;
+    max-width: 5vh;
   }
   .side-menu {
     position: fixed;
