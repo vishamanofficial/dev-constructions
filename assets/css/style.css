@@ -60,18 +60,18 @@ header {
   padding: 67px 45px;
   font-size: 30px;
   font-weight: 900;
-  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7); 
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
 }
 .slider-section .slider-item h1 {
   color: black;
   font-size: 60px;
   margin-left: 45px;
   margin-top: -60px;
-  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7); 
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
 }
 .slider-section .slider-item h1 span {
   color: #786457;
-  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7); 
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
 }
 
 .slider-section .slider-item h3 {
@@ -102,8 +102,6 @@ header {
   height: 100vh;
   padding-top: 70px;
 }
-
-
 
 /* Aboutsection */
 .about {
@@ -660,7 +658,6 @@ header {
   height: auto;
 }
 
-
 /* what we do  */
 .services {
   padding: 50px 50px;
@@ -746,7 +743,7 @@ header {
   font-size: 20px;
   color: var(--theme-brown);
 }
-.services .test{
+.services .test {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1036,7 +1033,6 @@ header {
   transition: 0.2s ease;
 }
 
-
 /* practice area page  */
 
 .practice {
@@ -1107,7 +1103,6 @@ header {
   bottom: 0;
 }
 
-/* RAMANAND BLOG CSS  */
 
 /* --------------------- Main ---------------------- */
 .site-blog {
@@ -1345,8 +1340,6 @@ header {
   padding: 17px;
 }
 
-/* ramanand contact  */
-
 /* --------------------- Main ---------------------- */
 .contact {
   padding: 0 0;
@@ -1356,8 +1349,7 @@ header {
 .contact-right {
   font-family: "Times New Roman", Times, serif;
 }
-/* =============================================================== */
-/* --------------------- Contact-Left ---------------------- */
+
 .contact-left h2 {
   border-bottom: 1px solid grey;
   border-top: 1px solid grey;
@@ -1659,19 +1651,19 @@ iframe {
   .mobile-nav .mobile-nav-box a img {
     max-width: 10%;
     float: right;
-}
+  }
 
-.services .services-info-subtitle{
-  margin-top: 50px;
-}
-.about-info-subtitle{
-  margin-top: 50px;
-}
-.side-menu.open {
-  top: 0;
-  left: 0;
-  height: 419px;
-}
+  .services .services-info-subtitle {
+    margin-top: 50px;
+  }
+  .about-info-subtitle {
+    margin-top: 50px;
+  }
+  .side-menu.open {
+    top: 0;
+    left: 0;
+    height: 419px;
+  }
 }
 
 /* aman bhaiya ka navabar wala css starts here==================================================== */
@@ -1857,27 +1849,26 @@ header {
     padding: 40px 20px;
     font-size: 40px;
     font-weight: 900;
-}
-.slider-section .slider-item h1 {
-  font-size: 40px;
-  margin-left: 20px;
-  margin-top: 0px;
-}
-.slider-section .slider-item h3 {
-  font-size: 15px;
-  margin:90px 10px 0px 20px;
-  border-left: 4px solid var(--theme-brown);
-  padding-left: 6px;
-}
-.slider-section .slider-btn {
-  padding: 45px 20px;
-}
-.services .test{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 20px;
-}
-
+  }
+  .slider-section .slider-item h1 {
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 0px;
+  }
+  .slider-section .slider-item h3 {
+    font-size: 15px;
+    margin: 90px 10px 0px 20px;
+    border-left: 4px solid var(--theme-brown);
+    padding-left: 6px;
+  }
+  .slider-section .slider-btn {
+    padding: 45px 20px;
+  }
+  .services .test {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+  }
 }
